@@ -17,19 +17,8 @@ CREATE VIEW IF NOT EXISTS stock_view AS
 SELECT
     item_id,
     warehouse_id,
-    SUM(amount) AS stock
-FROM
-    transactions
-GROUP BY
-    item_id,
-    warehouse_id;
-
-CREATE VIEW IF NOT EXISTS transactions_cost_view AS
-SELECT
-    item_id,
-    warehouse_id,
-    SUM(amount * cost) AS total_cost,
-    SUM(amount) as amount
+    SUM(amount) AS stock,
+    SUM(amount * cost) as total_cost
 FROM
     transactions
 GROUP BY
