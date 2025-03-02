@@ -36,12 +36,12 @@ func getItemStock(d *sql.DB, c *gin.Context) error {
 		return nil
 	}
 
-	stock_entries, err := database.GetItemStock(d, itemID, warehouseID)
+	stockEntries, err := database.GetItemStock(d, itemID, warehouseID)
 	if err != nil {
 		return err
 	}
 
-	c.JSON(http.StatusOK, gin.H{"stock_entries": stock_entries})
+	c.JSON(http.StatusOK, gin.H{"stock_entries": stockEntries})
 
 	return nil
 }

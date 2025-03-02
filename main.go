@@ -17,7 +17,10 @@ func main() {
 	defer db.Close()
 
 	r := gin.Default()
-	defer r.Run()
 
 	core.CreateTransactionsRoutes(db, r.Group("/transactions/"))
+
+	if err = r.Run(); err != nil {
+		log.Fatal(err)
+	}
 }
