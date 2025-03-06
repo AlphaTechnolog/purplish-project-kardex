@@ -7,5 +7,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="purplish-project-items" />
     <orderEntry type="module" module-name="purplish-project-warehouses" />
+    <orderEntry type="module" module-name="purplish-project-frontend" />
   </component>
 </module>

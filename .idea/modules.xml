@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../purplish-project-frontend/.idea/purplish-project-frontend.iml" filepath="$PROJECT_DIR$/../purplish-project-frontend/.idea/purplish-project-frontend.iml" />
       <module fileurl="file://$PROJECT_DIR$/../purplish-project-items/.idea/purplish-project-items.iml" filepath="$PROJECT_DIR$/../purplish-project-items/.idea/purplish-project-items.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/purplish-project-kardex.iml" filepath="$PROJECT_DIR$/.idea/purplish-project-kardex.iml" />
       <module fileurl="file://$PROJECT_DIR$/../purplish-project-warehouses/.idea/purplish-project-warehouses.iml" filepath="$PROJECT_DIR$/../purplish-project-warehouses/.idea/purplish-project-warehouses.iml" />
